@@ -1,0 +1,114 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #111;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+.hero {
+    height: 100vh;
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.cta {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #f39c12;
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+}
+
+.game-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.game-card {
+    background-color: #222;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid #f39c12;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.game-card img {
+    width: 100%;
+    border-bottom: 2px solid #f39c12;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px 0 20px;
+    font-size: 2em;
+}
+
+section {
+    padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 15px;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    padding: 15px 30px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px;
+}
